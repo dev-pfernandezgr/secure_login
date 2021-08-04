@@ -1,0 +1,7 @@
+// Agrega la conexión y las funciones de la base de datos aquí. 
+sec_session_start(); 
+if(login_check($mysqli) == true) {
+        // ¡Agrega el contenido de tu página protegida aquí!  
+} else { 
+        echo "No está autorizado para acceder a esta página. Por favor, inicie su sesión";
+}
